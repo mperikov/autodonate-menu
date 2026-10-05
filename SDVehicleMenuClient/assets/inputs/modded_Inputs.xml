@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<inputs>
+		<actions>
+			<input name="SDVEHICLEOPENMENU" loc="#STR_SDVM_INPUT_OPEN_MENU" />
+		</actions>
+	</inputs>
+	<preset>
+		<input name="SDVEHICLEOPENMENU">
+			<btn name="kO" />
+		</input>
+	</preset>
+</modded_inputs>

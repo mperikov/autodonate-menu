@@ -1,0 +1,181 @@
+FrameWidgetClass rootFrame {
+ size 900 600
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  PanelWidgetClass MainBG {
+   color 0 0 0 0.9412
+   size 900 560
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    TextWidgetClass H1Title {
+     ignorepointer 1
+     position 30 20
+     size 840 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#STR_SDVM_MENU_TITLE"
+     font "gui/fonts/sdf_MetronBook72"
+     "bold text" 1
+     "exact text" 1
+     "exact text size" 32
+     "text valign" center
+    }
+    PanelWidgetClass ProductsScrollBG {
+     ignorepointer 1
+     color 0.0902 0.1098 0.0941 1
+     position 30 90
+     size 400 400
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style blank
+     {
+      ScrollWidgetClass ProductsScroll {
+       ignorepointer 0
+       color 0.8431 0.6627 0 1
+       size 400 400
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "Scrollbar V" 1
+       {
+        WrapSpacerWidgetClass ProductListContainer {
+         ignorepointer 1
+         size 370 48
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         Padding 10
+         "Size To Content V" 1
+        }
+       }
+      }
+      TextWidgetClass EmptyStorageLabel {
+       visible 0
+       ignorepointer 1
+       color 0.6627 0.6627 0.6627 1
+       size 1 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#STR_SDVM_EMPTY_LIST"
+       font "gui/fonts/sdf_MetronBook72"
+       "exact text" 1
+       "exact text size" 22
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    PanelWidgetClass ProductFrame {
+     ignorepointer 1
+     color 0.0902 0.1098 0.0941 1
+     position 450 90
+     size 420 400
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style blank
+     {
+      TextWidgetClass ProductTitle {
+       ignorepointer 1
+       position 20 20
+       size 380 60
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#STR_SDVM_SELECT_VEHICLE"
+       font "gui/fonts/sdf_MetronBook72"
+       "bold text" 1
+       "exact text" 1
+       "exact text size" 24
+       "text valign" center
+      }
+      ItemPreviewWidgetClass VehiclePreview {
+       ignorepointer 1
+       position 20 90
+       size 380 220
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      TextWidgetClass SpawnErrorLabel {
+       visible 0
+       ignorepointer 1
+       color 0.8 0.2 0.2 1
+       position 20 320
+       size 380 50
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       font "gui/fonts/sdf_MetronBook72"
+       "exact text" 1
+       "exact text size" 14
+       wrap 1
+      }
+      ButtonWidgetClass BtnExecute {
+       color 0.8431 0.6627 0 1
+       position 0 340
+       size 200 40
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "no focus" 1
+       text "#STR_SDVM_BTN_SPAWN"
+       text_proportion 0.7
+      }
+     }
+    }
+    PanelWidgetClass Overlay {
+     visible 0
+     ignorepointer 1
+     color 0 0 0 0.6
+     size 1 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 1000
+     style rover_sim_colorable
+    }
+    RichTextWidgetClass NotificationText {
+     ignorepointer 1
+     position 30 500
+     size 840 40
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     font "gui/fonts/sdf_MetronLight72"
+     "exact text" 1
+     "exact text size" 16
+     "text halign" center
+     "text valign" center
+     wrap 1
+    }
+   }
+  }
+ }
+}

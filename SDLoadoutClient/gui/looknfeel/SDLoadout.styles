@@ -1,0 +1,210 @@
+<WidgetStyles>
+
+    <Widget Name="TextListboxWidget">
+
+        <Style Name="SDLoadoutPresetList" Font="gui/fonts/Metron22" ImageSet="rover_imageset" Color="4294967295">
+
+            <State Name="Normal">
+
+                <Item Name="HeaderLeftTop" Image="" />
+
+                <Item Name="HeaderLeftCenter" Image="" />
+
+                <Item Name="HeaderLeftBottom" Image="" />
+
+                <Item Name="HeaderTopCenter" Image="" />
+
+                <Item Name="HeaderCenter" Image="" />
+
+                <Item Name="HeaderBottomCenter" Image="" />
+
+                <Item Name="HeaderRightBottom" Image="" />
+
+                <Item Name="HeaderRightCenter" Image="" />
+
+                <Item Name="HeaderRightTop" Image="" />
+
+                <Item Name="LeftTop" Image="" />
+
+                <Item Name="TopSeparator" Image="" />
+
+                <Item Name="TopCenter" Image="" />
+
+                <Item Name="RightTop" Image="" />
+
+                <Item Name="TitleLeftCenter" Image="" />
+
+                <Item Name="TitleCenterSeparator" Image="" />
+
+                <Item Name="TitleCenter" Image="" />
+
+                <Item Name="TitleRightCenter" Image="" />
+
+                <Item Name="RightTopWithTitle" Image="" />
+
+                <Item Name="LeftTopWithTitle" Image="" />
+
+                <Item Name="RightCenter" Image="" />
+
+                <Item Name="Center" Image="" />
+
+                <Item Name="Separator" Image="" />
+
+                <Item Name="LeftCenter" Image="" />
+
+                <Item Name="RightBottom" Image="" />
+
+                <Item Name="BottomCenter" Image="" />
+
+                <Item Name="BottomSeparator" Image="" />
+
+                <Item Name="LeftBottom" Image="" />
+
+                <Item Name="ScrollBarTop" Image="" />
+
+                <Item Name="ScrollBarCenter" Image="ListboxScrollBarCenterMain" />
+
+                <Item Name="ScrollBarBottom" Image="" />
+
+                <Item Name="Highlight" Image="ListboxHighlight" />
+
+            </State>
+
+            <State Name="Focus">
+
+                <Item Name="HeaderLeftTop" Image="" />
+
+                <Item Name="HeaderLeftCenter" Image="" />
+
+                <Item Name="HeaderLeftBottom" Image="" />
+
+                <Item Name="HeaderTopCenter" Image="" />
+
+                <Item Name="HeaderCenter" Image="" />
+
+                <Item Name="HeaderBottomCenter" Image="" />
+
+                <Item Name="HeaderRightBottom" Image="" />
+
+                <Item Name="HeaderRightCenter" Image="" />
+
+                <Item Name="HeaderRightTop" Image="" />
+
+                <Item Name="LeftTop" Image="" />
+
+                <Item Name="TopSeparator" Image="" />
+
+                <Item Name="TopCenter" Image="" />
+
+                <Item Name="RightTop" Image="" />
+
+                <Item Name="TitleLeftCenter" Image="" />
+
+                <Item Name="TitleCenterSeparator" Image="" />
+
+                <Item Name="TitleCenter" Image="" />
+
+                <Item Name="TitleRightCenter" Image="" />
+
+                <Item Name="RightTopWithTitle" Image="" />
+
+                <Item Name="LeftTopWithTitle" Image="" />
+
+                <Item Name="RightCenter" Image="" />
+
+                <Item Name="Center" Image="" />
+
+                <Item Name="Separator" Image="" />
+
+                <Item Name="LeftCenter" Image="" />
+
+                <Item Name="RightBottom" Image="" />
+
+                <Item Name="BottomCenter" Image="" />
+
+                <Item Name="BottomSeparator" Image="" />
+
+                <Item Name="LeftBottom" Image="" />
+
+                <Item Name="ScrollBarTop" Image="" />
+
+                <Item Name="ScrollBarCenter" Image="ListboxScrollBarCenterMain" />
+
+                <Item Name="ScrollBarBottom" Image="" />
+
+                <Item Name="Highlight" Image="ListboxHighlight" />
+
+            </State>
+
+            <State Name="Disabled">
+
+                <Item Name="HeaderLeftTop" Image="" />
+
+                <Item Name="HeaderLeftCenter" Image="" />
+
+                <Item Name="HeaderLeftBottom" Image="" />
+
+                <Item Name="HeaderTopCenter" Image="" />
+
+                <Item Name="HeaderCenter" Image="" />
+
+                <Item Name="HeaderBottomCenter" Image="" />
+
+                <Item Name="HeaderRightBottom" Image="" />
+
+                <Item Name="HeaderRightCenter" Image="" />
+
+                <Item Name="HeaderRightTop" Image="" />
+
+                <Item Name="LeftTop" Image="" />
+
+                <Item Name="TopSeparator" Image="" />
+
+                <Item Name="TopCenter" Image="" />
+
+                <Item Name="RightTop" Image="" />
+
+                <Item Name="TitleLeftCenter" Image="" />
+
+                <Item Name="TitleCenterSeparator" Image="" />
+
+                <Item Name="TitleCenter" Image="" />
+
+                <Item Name="TitleRightCenter" Image="" />
+
+                <Item Name="RightTopWithTitle" Image="" />
+
+                <Item Name="LeftTopWithTitle" Image="" />
+
+                <Item Name="RightCenter" Image="" />
+
+                <Item Name="Center" Image="" />
+
+                <Item Name="Separator" Image="" />
+
+                <Item Name="LeftCenter" Image="" />
+
+                <Item Name="RightBottom" Image="" />
+
+                <Item Name="BottomCenter" Image="" />
+
+                <Item Name="BottomSeparator" Image="" />
+
+                <Item Name="LeftBottom" Image="" />
+
+                <Item Name="ScrollBarTop" Image="" />
+
+                <Item Name="ScrollBarCenter" Image="" />
+
+                <Item Name="ScrollBarBottom" Image="" />
+
+                <Item Name="Highlight" Image="" />
+
+            </State>
+
+        </Style>
+
+    </Widget>
+
+</WidgetStyles>
+

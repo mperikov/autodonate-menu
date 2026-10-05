@@ -1,0 +1,90 @@
+{
+    "DefaultItems": ["BandageDressing"],
+    "Characters": [
+        "SurvivorF_Judy",
+        "SurvivorM_Mirek",
+        "SurvivorF_Eva"
+    ],
+    "SlotCatalog": [
+        {
+            "SlotName": "HEAD",
+            "Label": "Голова",
+            "Items": ["", "Bandana_RedPattern", "Bandana_BlackPattern"]
+        },
+        {
+            "SlotName": "MASK",
+            "Label": "Лицо",
+            "Items": ["", "Balaclava3Holes_Black"]
+        },
+        {
+            "SlotName": "EYEWEAR",
+            "Label": "Глаза",
+            "Items": ["", "SportGlasses_Black"]
+        },
+        {
+            "SlotName": "GLOVES",
+            "Label": "Перчатки",
+            "Items": ["", "TacticalGloves_Black"]
+        },
+        {
+            "SlotName": "BODY",
+            "Label": "Верхняя одежда",
+            "Items": ["", "SD_Shirt_Erd1", "SD_Shirt_Erd3"]
+        },
+        {
+            "SlotName": "VEST",
+            "Label": "Жилет",
+            "Items": ["", "PlateCarrierVest"]
+        },
+        {
+            "SlotName": "BACK",
+            "Label": "Спина",
+            "Items": ["", "TaloonBag_Blue"]
+        },
+        {
+            "SlotName": "HIPS",
+            "Label": "Пояс",
+            "Items": ["", "CivilianBelt"]
+        },
+        {
+            "SlotName": "LEGS",
+            "Label": "Ноги",
+            "Items": ["", "SD_SlacksPants_Gray", "SD_SlacksPants_Erd9"]
+        },
+        {
+            "SlotName": "FEET",
+            "Label": "Обувь",
+            "Items": ["", "Sneakers_White"]
+        }
+    ],
+    "Gear": [
+        [
+            {
+                "SlotName": "BODY",
+                "Item": "SD_Shirt_Erd1"
+            },
+            {
+                "SlotName": "LEGS",
+                "Item": "SD_SlacksPants_Gray"
+            },
+            {
+                "SlotName": "FEET",
+                "Item": "Sneakers_White"
+            }
+        ],
+        [
+            {
+                "SlotName": "BODY",
+                "Item": "SD_Shirt_Erd3"
+            },
+            {
+                "SlotName": "LEGS",
+                "Item": "SD_SlacksPants_Erd9"
+            },
+            {
+                "SlotName": "FEET",
+                "Item": "Sneakers_White"
+            }
+        ]
+    ]
+}
